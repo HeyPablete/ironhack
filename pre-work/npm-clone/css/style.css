@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+  width: 100%;
+  height: 43px;
+  background-color: #C12127;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+}
+
+header {
+  background: #1D4E69 ;
+  background-image: url("../images/city-scape.svg");
+  font-size: 18px;
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+  line-height: 1.8em;
+}
+
+
+/* nav style text */
+.heart {}
+
+.top-left {
+  width: 54%; /* para una resolución de 1024px, no es un menú responsive */
+  display: inline-block;
+  padding: 0.625em 0 0 12px;
+  color: rgba(255,255,255,0.8);
+}
+
+.top-links {
+  width: auto;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.top-links li {
+  padding: 0 0 0 0.9375em;
+}
+
+.top-links a {
+  padding: 0.625em 0;
+}
+
+
+.some-name {
+  padding-top: 11px;
+}
+
+.some-name-2 {
+  height: 363px;
+  padding: 10px 150px;
+}
+
+.some-name a, .some-name p, .some-name form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.some-name a {
+  margin-left: 11px;
+}
+
+.some-name input {
+  width: 870px;
+  background-color: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  height: 3.125em;
+  margin: 0;
+  padding: 5px 5px 5px 15px;
+  outline: 0;
+  position: relative;
+  top: -10px;
+}
+
+button {
+  height: 36px;
+  width: 36px;
+  cursor: pointer;
+  position: relative;
+  left: -4px;
+  background-color: #1D4E69;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+.logo {
+  width: 120px;
+}
+
+.oso {
+  width: 45px;
+}
+
+/* section 1 */
+.section-1 {
+  padding: 120px 150px;
+  background-color: #273547;
+  color: #fff;
+}
+
+/* section 2 */
+.section-2 {
+  padding: 120px 150px;
+  background-color: #206F9C;
+  background-image: url("../images/forklift.svg");
+  color: #fff;
+}
+
+.section-3 {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 80px 0;
+  font-size: 16px;
+  line-height: 1.35;
+  color: #6d7986;
+  text-align: center;
+}
+
+.col-left {
+  width: 50%;
+}
+
+.col-right {
+  width: 40%;
+  display: inline-block;
+  margin-left: 50px;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+.col-small-left {
+  width: 30%;
+}
+
+.margin-left-4 {
+  margin-left: 4.16667%;
+}
+
+.section-3 h2 {
+  color: #373d48;
+  font-size: 36px;
+}
+
+.section-3 div {
+  width: 27%;
+  display: inline-block;
+  margin: 2em 3%;
+  vertical-align: top;
+}
+
+.section-3 div img {
+  display: block;
+  margin: 0 auto;
+}
+
+.section-3 div a {
+  color: #cb3837;
+}
+
+/*
+#1 section
+images/buildings-and-billboard.png
+
+segunda imagen en el section
+images/city-scape.svg
+
+#2 section
+images/forklift.svg
+
+
+
+
+#X section
+/images/mountain-climbing-bears.svg
+
+
+#X2 section
+images/red-car.png
+*/
+
+
+/* button style */
+.btn {
+  margin: 20px 0;
+  display: inline-block;
+  outline: none;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+}
+
+.orange-bg {
+  color: #fff;
+  background-color: #f09233;
+}
+
+
+.red-bg {
+  color: #fff;
+  background-color: #cb3837;
+}
+
+.blue-bg {
+  color: #fff;
+  background-color: #34495e;
+}
